@@ -10,7 +10,7 @@ import { AngularFirestore } from 'angularfire2/firestore';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Fire Trip';
   constructor(
   private afs: AngularFirestore,
   private db: AngularFireDatabase,
